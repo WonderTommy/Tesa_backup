@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		461A07BA2887A8F100504211 /* ItemDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461A07B92887A8F100504211 /* ItemDetailCell.swift */; };
+		461A07C6288A029700504211 /* Frequency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461A07C5288A029700504211 /* Frequency.swift */; };
+		461A07C8288A05A600504211 /* UIColorPlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461A07C7288A05A600504211 /* UIColorPlus.swift */; };
+		461A07CB288A090E00504211 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461A07CA288A090E00504211 /* Constants.swift */; };
+		461A07CD288A105900504211 /* FrequencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461A07CC288A105900504211 /* FrequencyViewController.swift */; };
+		461A07CF288A151600504211 /* FrequencyTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461A07CE288A151600504211 /* FrequencyTableCell.swift */; };
+		461A07D2288C430400504211 /* Expenditure+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461A07D0288C430400504211 /* Expenditure+CoreDataClass.swift */; };
+		461A07D3288C430400504211 /* Expenditure+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461A07D1288C430400504211 /* Expenditure+CoreDataProperties.swift */; };
+		461A07D7288CA95600504211 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461A07D6288CA95600504211 /* SettingsViewController.swift */; };
+		461A07D9288CABEB00504211 /* SettingsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461A07D8288CABEB00504211 /* SettingsTableCell.swift */; };
+		461A07DB288DA1E500504211 /* UserDefaultsPlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461A07DA288DA1E400504211 /* UserDefaultsPlus.swift */; };
+		4638C228288F8746005FE44F /* AnalysisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4638C227288F8746005FE44F /* AnalysisViewController.swift */; };
+		464F16E028831DE40053DF22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464F16DF28831DE40053DF22 /* AppDelegate.swift */; };
+		464F16E228831DE40053DF22 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464F16E128831DE40053DF22 /* SceneDelegate.swift */; };
+		464F16E428831DE40053DF22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464F16E328831DE40053DF22 /* ViewController.swift */; };
+		464F16EA28831DE40053DF22 /* Tesa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 464F16E828831DE40053DF22 /* Tesa.xcdatamodeld */; };
+		464F16EC28831DE90053DF22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 464F16EB28831DE90053DF22 /* Assets.xcassets */; };
+		464F16EF28831DE90053DF22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 464F16ED28831DE90053DF22 /* LaunchScreen.storyboard */; };
+		464F16FD288391B40053DF22 /* RootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464F16FC288391B40053DF22 /* RootTabBarController.swift */; };
+		464F16FF28839E1A0053DF22 /* ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464F16FE28839E1A0053DF22 /* ObservableObject.swift */; };
+		464F17022883A92A0053DF22 /* DataListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464F17012883A92A0053DF22 /* DataListViewController.swift */; };
+		464F17042883B3640053DF22 /* DataListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464F17032883B3640053DF22 /* DataListTableViewCell.swift */; };
+		464F17062883B7EF0053DF22 /* DataListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464F17052883B7EF0053DF22 /* DataListViewModel.swift */; };
+		464F1708288479030053DF22 /* RecordDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464F1707288479030053DF22 /* RecordDetailViewController.swift */; };
+		46A319AC289485A9006F2842 /* ExpenseChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A319AB289485A9006F2842 /* ExpenseChartView.swift */; };
+		46A319AE28949110006F2842 /* DatePlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A319AD28949110006F2842 /* DatePlus.swift */; };
+		46CCAB652895AEF100E75463 /* GroupByView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CCAB642895AEF000E75463 /* GroupByView.swift */; };
+		46D2D94A289F2A35003F7665 /* UIViewPlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D2D949289F2A35003F7665 /* UIViewPlus.swift */; };
+		9D05F16AB2AAE5132F9486A2 /* Pods_Tesa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92063EA82505429C8408B02C /* Pods_Tesa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		446BA5DC02DFAB82D4DF85E8 /* Pods-Tesa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tesa.debug.xcconfig"; path = "Target Support Files/Pods-Tesa/Pods-Tesa.debug.xcconfig"; sourceTree = "<group>"; };
+		461A07B92887A8F100504211 /* ItemDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailCell.swift; sourceTree = "<group>"; };
+		461A07C5288A029700504211 /* Frequency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frequency.swift; sourceTree = "<group>"; };
+		461A07C7288A05A600504211 /* UIColorPlus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorPlus.swift; sourceTree = "<group>"; };
+		461A07CA288A090E00504211 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		461A07CC288A105900504211 /* FrequencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequencyViewController.swift; sourceTree = "<group>"; };
+		461A07CE288A151600504211 /* FrequencyTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequencyTableCell.swift; sourceTree = "<group>"; };
+		461A07D0288C430400504211 /* Expenditure+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Expenditure+CoreDataClass.swift"; sourceTree = "<group>"; };
+		461A07D1288C430400504211 /* Expenditure+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Expenditure+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		461A07D6288CA95600504211 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		461A07D8288CABEB00504211 /* SettingsTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableCell.swift; sourceTree = "<group>"; };
+		461A07DA288DA1E400504211 /* UserDefaultsPlus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsPlus.swift; sourceTree = "<group>"; };
+		4638C227288F8746005FE44F /* AnalysisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisViewController.swift; sourceTree = "<group>"; };
+		464F16DC28831DE40053DF22 /* Tesa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tesa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		464F16DF28831DE40053DF22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		464F16E128831DE40053DF22 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		464F16E328831DE40053DF22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		464F16E928831DE40053DF22 /* Tesa.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tesa.xcdatamodel; sourceTree = "<group>"; };
+		464F16EB28831DE90053DF22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		464F16EE28831DE90053DF22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		464F16F028831DE90053DF22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		464F16FC288391B40053DF22 /* RootTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabBarController.swift; sourceTree = "<group>"; };
+		464F16FE28839E1A0053DF22 /* ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObject.swift; sourceTree = "<group>"; };
+		464F17012883A92A0053DF22 /* DataListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataListViewController.swift; sourceTree = "<group>"; };
+		464F17032883B3640053DF22 /* DataListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataListTableViewCell.swift; sourceTree = "<group>"; };
+		464F17052883B7EF0053DF22 /* DataListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataListViewModel.swift; sourceTree = "<group>"; };
+		464F1707288479030053DF22 /* RecordDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordDetailViewController.swift; sourceTree = "<group>"; };
+		46A319AB289485A9006F2842 /* ExpenseChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseChartView.swift; sourceTree = "<group>"; };
+		46A319AD28949110006F2842 /* DatePlus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePlus.swift; sourceTree = "<group>"; };
+		46CCAB642895AEF000E75463 /* GroupByView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupByView.swift; sourceTree = "<group>"; };
+		46D2D949289F2A35003F7665 /* UIViewPlus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewPlus.swift; sourceTree = "<group>"; };
+		47D892A3D029EF951FC1C8CA /* Pods-Tesa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tesa.release.xcconfig"; path = "Target Support Files/Pods-Tesa/Pods-Tesa.release.xcconfig"; sourceTree = "<group>"; };
+		92063EA82505429C8408B02C /* Pods_Tesa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tesa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		464F16D928831DE40053DF22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D05F16AB2AAE5132F9486A2 /* Pods_Tesa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EB76ED249A1C25BAC34BFEF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				446BA5DC02DFAB82D4DF85E8 /* Pods-Tesa.debug.xcconfig */,
+				47D892A3D029EF951FC1C8CA /* Pods-Tesa.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		461A07BB2887B12B00504211 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				461A07CA288A090E00504211 /* Constants.swift */,
+				464F16FE28839E1A0053DF22 /* ObservableObject.swift */,
+				461A07C7288A05A600504211 /* UIColorPlus.swift */,
+				461A07DA288DA1E400504211 /* UserDefaultsPlus.swift */,
+				46A319AD28949110006F2842 /* DatePlus.swift */,
+				46D2D949289F2A35003F7665 /* UIViewPlus.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		461A07C4288A028300504211 /* FrequencyUtility */ = {
+			isa = PBXGroup;
+			children = (
+				461A07C5288A029700504211 /* Frequency.swift */,
+				461A07CC288A105900504211 /* FrequencyViewController.swift */,
+				461A07CE288A151600504211 /* FrequencyTableCell.swift */,
+			);
+			path = FrequencyUtility;
+			sourceTree = "<group>";
+		};
+		461A07D4288CA8A800504211 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				464F16FC288391B40053DF22 /* RootTabBarController.swift */,
+				464F17052883B7EF0053DF22 /* DataListViewModel.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		461A07D5288CA93100504211 /* SettingsView */ = {
+			isa = PBXGroup;
+			children = (
+				461A07D6288CA95600504211 /* SettingsViewController.swift */,
+				461A07D8288CABEB00504211 /* SettingsTableCell.swift */,
+			);
+			path = SettingsView;
+			sourceTree = "<group>";
+		};
+		461A07DC288E3B8200504211 /* AnalysisView */ = {
+			isa = PBXGroup;
+			children = (
+				4638C227288F8746005FE44F /* AnalysisViewController.swift */,
+				46A319AB289485A9006F2842 /* ExpenseChartView.swift */,
+				46CCAB642895AEF000E75463 /* GroupByView.swift */,
+			);
+			path = AnalysisView;
+			sourceTree = "<group>";
+		};
+		464F16D328831DE40053DF22 = {
+			isa = PBXGroup;
+			children = (
+				464F16DE28831DE40053DF22 /* Tesa */,
+				464F16DD28831DE40053DF22 /* Products */,
+				3EB76ED249A1C25BAC34BFEF /* Pods */,
+				F64637648174B55292754A67 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		464F16DD28831DE40053DF22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				464F16DC28831DE40053DF22 /* Tesa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		464F16DE28831DE40053DF22 /* Tesa */ = {
+			isa = PBXGroup;
+			children = (
+				461A07BB2887B12B00504211 /* Utility */,
+				461A07C4288A028300504211 /* FrequencyUtility */,
+				461A07D5288CA93100504211 /* SettingsView */,
+				461A07DC288E3B8200504211 /* AnalysisView */,
+				464F17002883A8F90053DF22 /* DataListView */,
+				461A07D4288CA8A800504211 /* Root */,
+				464F16FB288325950053DF22 /* CoreData */,
+				464F16DF28831DE40053DF22 /* AppDelegate.swift */,
+				464F16E128831DE40053DF22 /* SceneDelegate.swift */,
+				464F16E328831DE40053DF22 /* ViewController.swift */,
+				464F16EB28831DE90053DF22 /* Assets.xcassets */,
+				464F16ED28831DE90053DF22 /* LaunchScreen.storyboard */,
+				464F16F028831DE90053DF22 /* Info.plist */,
+				464F16E828831DE40053DF22 /* Tesa.xcdatamodeld */,
+			);
+			path = Tesa;
+			sourceTree = "<group>";
+		};
+		464F16FB288325950053DF22 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				461A07D0288C430400504211 /* Expenditure+CoreDataClass.swift */,
+				461A07D1288C430400504211 /* Expenditure+CoreDataProperties.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		464F17002883A8F90053DF22 /* DataListView */ = {
+			isa = PBXGroup;
+			children = (
+				464F1707288479030053DF22 /* RecordDetailViewController.swift */,
+				461A07B92887A8F100504211 /* ItemDetailCell.swift */,
+				464F17012883A92A0053DF22 /* DataListViewController.swift */,
+				464F17032883B3640053DF22 /* DataListTableViewCell.swift */,
+			);
+			path = DataListView;
+			sourceTree = "<group>";
+		};
+		F64637648174B55292754A67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92063EA82505429C8408B02C /* Pods_Tesa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		464F16DB28831DE40053DF22 /* Tesa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 464F16F328831DE90053DF22 /* Build configuration list for PBXNativeTarget "Tesa" */;
+			buildPhases = (
+				E3FFD1E16D2CE258D24BAD41 /* [CP] Check Pods Manifest.lock */,
+				464F16D828831DE40053DF22 /* Sources */,
+				464F16D928831DE40053DF22 /* Frameworks */,
+				464F16DA28831DE40053DF22 /* Resources */,
+				446DBF95FF10B85F12A6B274 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tesa;
+			productName = Tesa;
+			productReference = 464F16DC28831DE40053DF22 /* Tesa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		464F16D428831DE40053DF22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					464F16DB28831DE40053DF22 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 464F16D728831DE40053DF22 /* Build configuration list for PBXProject "Tesa" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 464F16D328831DE40053DF22;
+			productRefGroup = 464F16DD28831DE40053DF22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				464F16DB28831DE40053DF22 /* Tesa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		464F16DA28831DE40053DF22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				464F16EF28831DE90053DF22 /* LaunchScreen.storyboard in Resources */,
+				464F16EC28831DE90053DF22 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		446DBF95FF10B85F12A6B274 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tesa/Pods-Tesa-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tesa/Pods-Tesa-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tesa/Pods-Tesa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3FFD1E16D2CE258D24BAD41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tesa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		464F16D828831DE40053DF22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D2D94A289F2A35003F7665 /* UIViewPlus.swift in Sources */,
+				464F1708288479030053DF22 /* RecordDetailViewController.swift in Sources */,
+				46A319AC289485A9006F2842 /* ExpenseChartView.swift in Sources */,
+				461A07C8288A05A600504211 /* UIColorPlus.swift in Sources */,
+				464F16E428831DE40053DF22 /* ViewController.swift in Sources */,
+				464F17042883B3640053DF22 /* DataListTableViewCell.swift in Sources */,
+				461A07D2288C430400504211 /* Expenditure+CoreDataClass.swift in Sources */,
+				461A07D7288CA95600504211 /* SettingsViewController.swift in Sources */,
+				464F16E028831DE40053DF22 /* AppDelegate.swift in Sources */,
+				461A07D9288CABEB00504211 /* SettingsTableCell.swift in Sources */,
+				461A07BA2887A8F100504211 /* ItemDetailCell.swift in Sources */,
+				464F16FD288391B40053DF22 /* RootTabBarController.swift in Sources */,
+				461A07CF288A151600504211 /* FrequencyTableCell.swift in Sources */,
+				461A07CB288A090E00504211 /* Constants.swift in Sources */,
+				46CCAB652895AEF100E75463 /* GroupByView.swift in Sources */,
+				461A07C6288A029700504211 /* Frequency.swift in Sources */,
+				464F16FF28839E1A0053DF22 /* ObservableObject.swift in Sources */,
+				4638C228288F8746005FE44F /* AnalysisViewController.swift in Sources */,
+				464F17062883B7EF0053DF22 /* DataListViewModel.swift in Sources */,
+				464F17022883A92A0053DF22 /* DataListViewController.swift in Sources */,
+				461A07CD288A105900504211 /* FrequencyViewController.swift in Sources */,
+				46A319AE28949110006F2842 /* DatePlus.swift in Sources */,
+				461A07DB288DA1E500504211 /* UserDefaultsPlus.swift in Sources */,
+				461A07D3288C430400504211 /* Expenditure+CoreDataProperties.swift in Sources */,
+				464F16EA28831DE40053DF22 /* Tesa.xcdatamodeld in Sources */,
+				464F16E228831DE40053DF22 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		464F16ED28831DE90053DF22 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				464F16EE28831DE90053DF22 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		464F16F128831DE90053DF22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		464F16F228831DE90053DF22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		464F16F428831DE90053DF22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 446BA5DC02DFAB82D4DF85E8 /* Pods-Tesa.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tesa/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = individual.Tesa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		464F16F528831DE90053DF22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47D892A3D029EF951FC1C8CA /* Pods-Tesa.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tesa/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = individual.Tesa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		464F16D728831DE40053DF22 /* Build configuration list for PBXProject "Tesa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				464F16F128831DE90053DF22 /* Debug */,
+				464F16F228831DE90053DF22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		464F16F328831DE90053DF22 /* Build configuration list for PBXNativeTarget "Tesa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				464F16F428831DE90053DF22 /* Debug */,
+				464F16F528831DE90053DF22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		464F16E828831DE40053DF22 /* Tesa.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				464F16E928831DE40053DF22 /* Tesa.xcdatamodel */,
+			);
+			currentVersion = 464F16E928831DE40053DF22 /* Tesa.xcdatamodel */;
+			path = Tesa.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 464F16D428831DE40053DF22 /* Project object */;
+}
